@@ -3,5 +3,11 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+  # movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+  # Character.create(name: 'Luke', movie: movies.first)
+
+Task.create!(title: 'laundry', details: 'washing clothes')
+Task.create!(title: 'dishes', details: 'washing dishes')
+Task.create!(title: 'clean', details: 'vacuum')
+
+
